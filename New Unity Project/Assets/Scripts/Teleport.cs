@@ -14,7 +14,7 @@ public class Teleport : MonoBehaviour
         if (collision.collider.tag == "Flag")
         {
             //teleport to 2nd stage
-            transform.position = new Vector2(150, 0);
+            transform.position = new Vector2(150, -2);
         }
         
         

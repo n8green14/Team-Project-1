@@ -8,6 +8,8 @@ TagManager:
   - Ground
   - Flag
   - Flag2
+  - Win
+  - WinFlag
   layers:
   - Default
   - TransparentFX

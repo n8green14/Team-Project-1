@@ -5,15 +5,25 @@ using UnityEngine.SceneManagement;
 
 public class WinScript : MonoBehaviour
 {
-    
-    void OnCollisionEnter2D(Collision2D collision)
+    // Start is called before the first frame update
+    void Start()
     {
-        if (collision.collider.tag == "Flag2")
+
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.tag == "WinFlag")
         {
            SceneManager.LoadScene("Win");
         }
         
     }
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+}
 
     
-}
+
